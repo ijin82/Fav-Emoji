@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"POT-Creation-Date: 2026-08-26 16:11+0200\n"
 "PO-Revision-Date: 2017-02-05 16:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:759
 msgid "Fav-Emoji"
 msgstr ""
 
@@ -203,28 +203,45 @@ msgstr ""
 msgid "Use keyboard shortcut to open the emoji picker"
 msgstr ""
 
-#: fav-emoji@ijin82/prefs.js:613
+#: fav-emoji@ijin82/prefs.js:614
 msgid "Menu shortcut"
 msgstr ""
 
-#: fav-emoji@ijin82/prefs.js:628
+#: fav-emoji@ijin82/prefs.js:615
+msgid ""
+"Click the button to record a new shortcut, or press BackSpace to disable"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:625
+msgid "Disabled"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:696
+msgid "Press keys..."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:703
+msgid "Reset to default (Super+Period)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:720
 msgid "Ctrl+Enter or Enter in popup"
 msgstr ""
 
-#: fav-emoji@ijin82/prefs.js:629
+#: fav-emoji@ijin82/prefs.js:721
 msgid ""
 "Copies composed emojis to clipboard and closes menu (same as Copy button)"
 msgstr ""
 
-#: fav-emoji@ijin82/prefs.js:643
+#: fav-emoji@ijin82/prefs.js:735
 msgid "About"
 msgstr ""
 
-#: fav-emoji@ijin82/prefs.js:650
+#: fav-emoji@ijin82/prefs.js:742
 msgid "Information"
 msgstr ""
 
-#: fav-emoji@ijin82/prefs.js:651
+#: fav-emoji@ijin82/prefs.js:743
 msgid "Fav-Emoji v1.0"
 msgstr ""
 

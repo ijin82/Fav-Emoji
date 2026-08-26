@@ -4,14 +4,15 @@
 	path="/org/gnome/shell/extensions/fav-emoji/">
     <key type="as" name="favorite-emojis">
       <default>
-        ['👍','❤️','😀','😂','🤣','🚀','🤝','🤔','😮','😍',
-         '🥰','😘','🤮','🔥','🎉','🙏','👏','💯','👀','😎']
+        ['👋','❤️','👍','😀','😂','🤣','🚀','🎉','🤝','🤔',
+         '😮','😍','🥰','😘','🤮','🔥','🙏','👏','💯','👀',
+         '😎','✊','💩','🤗','🖕','😫','🤦‍♂️','🌟']
       </default>
       <summary>Favorite emojis</summary>
       <description>List of favorite emojis (up to 50) displayed in the popup.</description>
     </key>
     <key type="i" name="nbcols">
-      <default>10</default>
+      <default>7</default>
       <summary>Number of emojis per line</summary>
       <description>Sets the number of columns of emojis to display.</description>
     </key>

@@ -235,12 +235,12 @@ export default class FavEmoji extends Extension {
 
     let rawFavorites = this._settings.get_strv("favorite-emojis");
     if (!rawFavorites || rawFavorites.length === 0) {
-      rawFavorites = ['👍','❤️','😀','😂','🤣','🚀','🤝','🤔','😮','😍','🥰','😘','🤮','🔥','🎉','🙏','👏','💯','👀','😎'];
+      rawFavorites = ['👋','❤️','👍','😀','😂','🤣','🚀','🎉','🤝','🤔','😮','😍','🥰','😘','🤮','🔥','🙏','👏','💯','👀','😎','✊','💩','🤗','🖕','😫','🤦‍♂️','🌟'];
     }
 
     // Limit to max 50 items
     const favorites = rawFavorites.slice(0, 50);
-    const nbCols = Math.max(1, this._settings.get_int("nbcols") || 10);
+    const nbCols = Math.max(1, this._settings.get_int("nbcols") || 7);
     const emojiSize = Math.max(16, this._settings.get_int("emojisize") || 28);
 
     let currentRowBox = null;

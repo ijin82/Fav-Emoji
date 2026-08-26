@@ -66,6 +66,10 @@ for line in data:
     emoji = match.group(1)
     desc = match.group(2)
 
+    # Skip regional indicator letters (internal building blocks for flags)
+    if "regional indicator" in desc.lower():
+        continue
+
     # Extract only a single, normalized skin tone value (or empty string)
     skin_tone = ""
     skin_tone_match = re.search(r"(light|medium-light|medium|medium-dark|dark) skin tone", desc)

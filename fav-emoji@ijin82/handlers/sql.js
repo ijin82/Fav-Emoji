@@ -56,7 +56,7 @@ search_description(search_text, skin_tone = 0, gender = 0) {
 
     const gender_filter = this.get_gender_filter(gender);
 
-    return `SELECT * FROM emojis WHERE ${sql_string}${skin_filter}${gender_filter} ORDER BY clicked_times DESC;`;
+    return `SELECT * FROM emojis WHERE ${sql_string} AND description NOT LIKE '%regional indicator%'${skin_filter}${gender_filter} ORDER BY clicked_times DESC;`;
   };
 
   // Try prefix search first
@@ -94,7 +94,7 @@ search_description(search_text, skin_tone = 0, gender = 0) {
     const gender_filter = this.get_gender_filter(gender);
 
     return this.query(`
-      SELECT * FROM emojis WHERE emoji_group='${group}'${skin_filter}${gender_filter};
+      SELECT * FROM emojis WHERE emoji_group='${group}' AND description NOT LIKE '%regional indicator%'${skin_filter}${gender_filter};
     `);
   }
 

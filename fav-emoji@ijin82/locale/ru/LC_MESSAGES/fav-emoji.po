@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fav-emoji 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-26 15:55+0200\n"
-"PO-Revision-Date: 2026-08-26 15:55+0200\n"
+"POT-Creation-Date: 2026-08-26 16:11+0200\n"
+"PO-Revision-Date: 2026-08-26 16:11+0200\n"
 "Last-Translator: Ilya Rogozhin <ijin82@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:759
 msgid "Fav-Emoji"
 msgstr "Fav-Emoji"
 
@@ -191,29 +191,47 @@ msgstr "Включить вызов меню по клавише"
 msgid "Use keyboard shortcut to open the emoji picker"
 msgstr "Использовать сочетание клавиш для быстрого открытия меню набора эмодзи"
 
-#: fav-emoji@ijin82/prefs.js:613
+#: fav-emoji@ijin82/prefs.js:614
 msgid "Menu shortcut"
 msgstr "Сочетание клавиш открытия меню"
 
-#: fav-emoji@ijin82/prefs.js:628
+#: fav-emoji@ijin82/prefs.js:615
+msgid ""
+"Click the button to record a new shortcut, or press BackSpace to disable"
+msgstr ""
+"Нажмите кнопку для записи комбинации, либо BackSpace для отключения"
+
+#: fav-emoji@ijin82/prefs.js:625
+msgid "Disabled"
+msgstr "Отключено"
+
+#: fav-emoji@ijin82/prefs.js:696
+msgid "Press keys..."
+msgstr "Нажмите клавиши..."
+
+#: fav-emoji@ijin82/prefs.js:703
+msgid "Reset to default (Super+Period)"
+msgstr "Сбросить по умолчанию (Super+.)"
+
+#: fav-emoji@ijin82/prefs.js:720
 msgid "Ctrl+Enter or Enter in popup"
 msgstr "Ctrl+Enter или Enter в окне набора"
 
-#: fav-emoji@ijin82/prefs.js:629
+#: fav-emoji@ijin82/prefs.js:721
 msgid ""
 "Copies composed emojis to clipboard and closes menu (same as Copy button)"
 msgstr ""
 "Копирует все набранные эмодзи в буфер обмена и закрывает меню (аналог кнопки "
 "«Скопировать»)"
 
-#: fav-emoji@ijin82/prefs.js:643
+#: fav-emoji@ijin82/prefs.js:735
 msgid "About"
 msgstr "О программе"
 
-#: fav-emoji@ijin82/prefs.js:650
+#: fav-emoji@ijin82/prefs.js:742
 msgid "Information"
 msgstr "Информация"
 
-#: fav-emoji@ijin82/prefs.js:651
+#: fav-emoji@ijin82/prefs.js:743
 msgid "Fav-Emoji v1.0"
 msgstr "Fav-Emoji v1.0"

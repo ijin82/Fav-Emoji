@@ -9,8 +9,9 @@ import { ExtensionPreferences, gettext as _ } from 'resource:///org/gnome/Shell/
 import { SQLite } from './handlers/sql.js';
 
 const DEFAULT_FAVORITES = [
-    '👍','❤️','😀','😂','🤣','🚀','🤝','🤔','😮','😍',
-    '🥰','😘','🤮','🔥','🎉','🙏','👏','💯','👀','😎'
+    '👋','❤️','👍','😀','😂','🤣','🚀','🎉','🤝','🤔',
+    '😮','😍','🥰','😘','🤮','🔥','🙏','👏','💯','👀',
+    '😎','✊','💩','🤗','🖕','😫','🤦‍♂️','🌟'
 ];
 
 export default class FavEmojiPrefs extends ExtensionPreferences {
@@ -572,7 +573,7 @@ export default class FavEmojiPrefs extends ExtensionPreferences {
             upper: 20,
             step_increment: 1,
             page_increment: 2,
-            value: this._window._settings.get_int('nbcols') || 10,
+            value: this._window._settings.get_int('nbcols') || 7,
         });
         const nbColsRow = new Adw.SpinRow({
             title: _('Number of columns in menu'),
@@ -608,20 +609,112 @@ export default class FavEmojiPrefs extends ExtensionPreferences {
         });
         shortcutGroup.add(activeKeybind);
 
-        let keybind = this._window._settings.get_strv('emoji-keybind')[0] || '<Super>period';
-        const emojiKeybind = new Adw.EntryRow({
-            title: _('Menu shortcut'),
-            show_apply_button: true,
-            text: keybind,
-        });
-        shortcutGroup.add(emojiKeybind);
+        let currentKeybind = this._window._settings.get_strv('emoji-keybind')[0] || '<Super>period';
 
-        emojiKeybind.connect('changed', () => {
-            keybind = emojiKeybind.get_text();
+        const shortcutRow = new Adw.ActionRow({
+            title: _('Menu shortcut'),
+            subtitle: _('Click the button to record a new shortcut, or press BackSpace to disable'),
         });
-        emojiKeybind.connect('apply', () => {
-            this._window._settings.set_strv('emoji-keybind', [keybind]);
+
+        const shortcutBtn = new Gtk.Button({
+            valign: Gtk.Align.CENTER,
+            margin_end: 4,
         });
+
+        const updateShortcutLabel = (accel) => {
+            if (!accel || accel.length === 0) {
+                shortcutBtn.set_label(_('Disabled'));
+            } else {
+                const [ok, keyval, mods] = Gtk.accelerator_parse(accel);
+                if (ok) {
+                    shortcutBtn.set_label(Gtk.accelerator_get_label(keyval, mods) || accel);
+                } else {
+                    shortcutBtn.set_label(accel);
+                }
+            }
+        };
+        updateShortcutLabel(currentKeybind);
+
+        let isCapturing = false;
+        const keyController = new Gtk.EventControllerKey();
+        keyController.set_propagation_phase(Gtk.PropagationPhase.CAPTURE);
+
+        keyController.connect('key-pressed', (ctrl, keyval, keycode, state) => {
+            if (!isCapturing) return Gdk.EVENT_PROPAGATE;
+
+            // Clean up state mask: keep primary modifiers only
+            const mask = state & (Gdk.ModifierType.CONTROL_MASK | Gdk.ModifierType.SHIFT_MASK | Gdk.ModifierType.ALT_MASK | Gdk.ModifierType.SUPER_MASK);
+
+            // Cancel capture on Escape
+            if (keyval === Gdk.KEY_Escape) {
+                isCapturing = false;
+                shortcutBtn.remove_css_class('suggested-action');
+                updateShortcutLabel(currentKeybind);
+                return Gdk.EVENT_STOP;
+            }
+
+            // Clear shortcut on BackSpace or Delete
+            if (keyval === Gdk.KEY_BackSpace || keyval === Gdk.KEY_Delete) {
+                isCapturing = false;
+                shortcutBtn.remove_css_class('suggested-action');
+                currentKeybind = '';
+                this._window._settings.set_strv('emoji-keybind', []);
+                updateShortcutLabel('');
+                return Gdk.EVENT_STOP;
+            }
+
+            // Ignore modifier keys pressed alone
+            const isModifier = [
+                Gdk.KEY_Control_L, Gdk.KEY_Control_R,
+                Gdk.KEY_Shift_L, Gdk.KEY_Shift_R,
+                Gdk.KEY_Alt_L, Gdk.KEY_Alt_R,
+                Gdk.KEY_Super_L, Gdk.KEY_Super_R,
+                Gdk.KEY_Meta_L, Gdk.KEY_Meta_R,
+                Gdk.KEY_ISO_Level3_Shift
+            ].includes(keyval);
+
+            if (isModifier) {
+                return Gdk.EVENT_STOP;
+            }
+
+            // Format accelerator string
+            const accelName = Gtk.accelerator_name(keyval, mask);
+            if (accelName && Gtk.accelerator_valid(keyval, mask)) {
+                isCapturing = false;
+                shortcutBtn.remove_css_class('suggested-action');
+                currentKeybind = accelName;
+                this._window._settings.set_strv('emoji-keybind', [accelName]);
+                updateShortcutLabel(accelName);
+                return Gdk.EVENT_STOP;
+            }
+
+            return Gdk.EVENT_STOP;
+        });
+
+        shortcutBtn.connect('clicked', () => {
+            isCapturing = true;
+            shortcutBtn.add_css_class('suggested-action');
+            shortcutBtn.set_label(_('Press keys...'));
+        });
+
+        const resetShortcutBtn = new Gtk.Button({
+            icon_name: 'edit-clear-symbolic',
+            has_frame: false,
+            valign: Gtk.Align.CENTER,
+            tooltip_text: _('Reset to default (Super+Period)'),
+        });
+        resetShortcutBtn.connect('clicked', () => {
+            isCapturing = false;
+            shortcutBtn.remove_css_class('suggested-action');
+            currentKeybind = '<Super>period';
+            this._window._settings.set_strv('emoji-keybind', ['<Super>period']);
+            updateShortcutLabel('<Super>period');
+        });
+
+        this._window.add_controller(keyController);
+        shortcutRow.add_suffix(shortcutBtn);
+        shortcutRow.add_suffix(resetShortcutBtn);
+        shortcutGroup.add(shortcutRow);
 
         // Note about Ctrl+Enter
         const ctrlEnterInfoRow = new Adw.ActionRow({

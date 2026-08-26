@@ -1,82 +1,83 @@
 # Fav-Emoji 🌟
 
-**Fav-Emoji** — это быстрое и минималистичное расширение для GNOME Shell, созданное для мгновенного набора и копирования ваших любимых эмодзи прямо из верхней панели экрана.
+**Fav-Emoji** is a fast, minimalistic GNOME Shell extension designed for quick composition and instant copying/pasting of your favorite emojis directly from the top panel.
 
-В отличие от стандартных громоздких селекторов со всеми тысячами иконок сразу, **Fav-Emoji** фокусируется на скорости: вы настраиваете до 50 своих самых часто используемых эмодзи, в один клик составляете нужную комбинацию в строке набора и мгновенно копируете или автоматически вставляете её в активное окно.
-
----
-
-## Возможности ✨
-
-- 🚀 **Быстрый доступ с панели**: значок на верхней панели или настраиваемая горячая клавиша (<kbd>Super</kbd>+<kbd>.</kbd> по умолчанию).
-- ✍️ **Удобный набор комбинаций**: строка набора всегда открывается пустой с готовым фокусом ввода. Кликайте по эмодзи — они мгновенно добавляются в строку цепочкой.
-- 📋 **Копирование и авто-вставка**:
-  - Кнопка **«Скопировать»** или клавиша <kbd>Enter</kbd> / <kbd>Ctrl</kbd>+<kbd>Enter</kbd> копирует набранный текст в буфер обмена и закрывает меню.
-  - Настраиваемая опция **«Вставлять сразу после копирования»** для автоматической вставки в активное приложение.
-  - Кнопка **«Очистить»** для сброса набранной строки.
-- 🎨 **Мощные и наглядные настройки (Libadwaita / GTK4)**:
-  - **Каталог из 9 рубрик** и **мгновенный поиск** по базе из 3900+ эмодзи с крупными значками 30px.
-  - **Умное переключение (Toggle)**: выбранные эмодзи подсвечиваются синей рамкой в каталоге; повторный клик убирает эмодзи из избранного.
-  - **Drag & Drop сортировка**: перетаскивайте карточки любимых эмодзи мышью для изменения их порядка.
-  - **Двусторонняя синхронизация**: текстовое поле «Список эмодзи» синхронизируется с карточками на лету в реальном времени.
-  - Настройка числа колонок в меню и размера эмодзи на экране.
+Unlike standard bulky emoji pickers with thousands of icons at once, **Fav-Emoji** focuses on speed and ergonomics: you customize up to 50 of your most frequently used emojis, click to compose any combination in a dedicated accumulator text entry, and instantly copy or auto-paste it into the active application.
 
 ---
 
-## Установка и сборка 🛠
+## Features ✨
 
-### Быстрая сборка из исходников:
+- 🚀 **Quick Top Panel Access**: Compact icon in the top panel or customizable global shortcut (<kbd>Super</kbd>+<kbd>.</kbd> by default).
+- ✍️ **Effortless Composition**: The text accumulator field opens clean and automatically focused. Click any emoji in the grid to append it.
+- 📋 **One-Click Copy & Auto-Paste**:
+  - **Copy** button or <kbd>Enter</kbd> / <kbd>Ctrl</kbd>+<kbd>Enter</kbd> copies text to the clipboard and closes the popup menu.
+  - Optional **"Paste immediately after copy"** automatically simulates paste into the focused window.
+  - **Clear** button resets the composed string.
+- 🎨 **Modern Settings Window (Libadwaita / GTK4)**:
+  - **9-Category Catalog & Instant Search**: Full catalog of 3900+ emojis with large 30px icons, searchable by name and keywords.
+  - **Smart Toggle Selection**: Currently selected emojis are highlighted with a blue border; clicking again removes them from favorites.
+  - **Drag & Drop Reordering**: Rearrange favorite emojis by dragging items directly with the mouse.
+  - **Bidirectional Real-Time Sync**: Edit or reorder the entire emoji set as plain text in the "Emoji List" field with instant synchronization.
+  - **Interactive Shortcut Recorder**: Click and press any combination (e.g. <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>.</kbd>) to bind shortcuts.
+  - Configurable grid columns and emoji font size.
+
+---
+
+## Installation & Build 🛠
+
+### Build from source:
 
 ```bash
-# 1. Клонируйте репозиторий
+# 1. Clone the repository
 git clone https://github.com/ijin82/Fav-Emoji.git
 cd Fav-Emoji
 
-# 2. Соберите расширение
+# 2. Build the extension package
 make build
 
-# 3. Установите в систему
+# 3. Install to current user
 make install
 ```
 
-### Локальная установка для разработки (симлинк):
+### Local development setup (symlink):
 
 ```bash
 ln -s "$(pwd)/fav-emoji@ijin82" ~/.local/share/gnome-shell/extensions/fav-emoji@ijin82
 gnome-extensions enable fav-emoji@ijin82
 ```
 
-Для открытия окна настроек:
+To open preferences:
 ```bash
 gnome-extensions prefs fav-emoji@ijin82
 ```
 
 ---
 
-## Отладка и тестирование 🏗
+## Debugging & Testing 🏗
 
-- Для быстрого тестирования в чистой сессии без выхода из системы (Wayland):
+- Test inside an isolated nested GNOME Shell session (Wayland):
   ```bash
   dbus-run-session gnome-shell --nested --wayland
   ```
-- Для просмотра логов:
+- View live extension logs:
   ```bash
   journalctl /usr/bin/gnome-shell -b -f -o cat
   ```
 
 ---
 
-## Благодарности и авторство 🫂
+## Acknowledgments & Credits 🫂
 
-Расширение **Fav-Emoji** создано Ильей Рогожиным ([@ijin82](https://github.com/ijin82)) на базе проекта **[Emoji Copy](https://github.com/felipeftn/emoji-copy)**.
+**Fav-Emoji** is created by Ilya Rogozhin ([@ijin82](https://github.com/ijin82)) based on the **[Emoji Copy](https://github.com/felipeftn/emoji-copy)** project.
 
-Особая благодарность автору оригинального проекта:
-- **[FelipeFTN](https://github.com/felipeftn)** — создателю первой версии *Emoji Copy*, чей труд, база SQLite и наработки легли в основу этого расширения.
-- **[maoschanz](https://github.com/maoschanz)** — автору оригинального *emoji-selector-for-gnome*.
-- Всем контрибьюторам и переводчикам открытого сообщества GNOME.
+Special thanks to:
+- **[FelipeFTN](https://github.com/felipeftn)** — creator of the original *Emoji Copy* extension, whose groundwork, SQLite database, and efforts made this extension possible.
+- **[maoschanz](https://github.com/maoschanz)** — author of the original *emoji-selector-for-gnome*.
+- All open-source GNOME community contributors and translators.
 
 ---
 
-## Лицензия 📄
+## License 📄
 
-Проект распространяется под лицензией **GNU General Public License v3.0 (GPL-3.0)**. Подробнее см. в файле [LICENSE](./LICENSE).
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](./LICENSE) file for details.
