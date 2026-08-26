@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"PO-Revision-Date: 2025-04-03 12:50+0200\n"
+"Last-Translator: summoner <summoner@vivaldi.net>\n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+msgid "Fav-Emoji"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:151
+msgid "Clear"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:174
+msgid "Copy"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:203
+msgid "Click emojis to compose..."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:122
+msgid "Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:129
+msgid "Favorite Emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:130
+msgid "Choose up to 50 emojis to display in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:136
+#, fuzzy
+msgid "Emoji List"
+msgstr "Emoji Copy"
+
+#: fav-emoji@ijin82/prefs.js:139
+msgid "Edit or reorder characters in this line for quick changes"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:158
+msgid "Current Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:159
+msgid "Drag & Drop to reorder, or edit in the text box above."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:251
+msgid "Drag to reorder"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:327
+msgid "List Actions"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:331
+msgid "Default"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:341
+msgid "Clear All"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:356
+msgid "Search Emoji Catalog"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:357
+msgid "Enter name in English (e.g. smile, cat, pizza, fire) and pick emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:362
+msgid "Search emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:450
+msgid "Emoji Catalog by Category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:451
+msgid "Click any 30px emoji to add or remove from favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:456
+#, fuzzy
+msgid "Smileys and Emotion"
+msgstr "Mosolyok és test"
+
+#: fav-emoji@ijin82/prefs.js:457
+#, fuzzy
+msgid "People and Body"
+msgstr "Mosolyok és test"
+
+#: fav-emoji@ijin82/prefs.js:458
+#, fuzzy
+msgid "Animals and Nature"
+msgstr "Állatok és természet"
+
+#: fav-emoji@ijin82/prefs.js:459
+#, fuzzy
+msgid "Food and Drink"
+msgstr "Étel és ital"
+
+#: fav-emoji@ijin82/prefs.js:460
+#, fuzzy
+msgid "Travel and Places"
+msgstr "Utazás és helyek"
+
+#: fav-emoji@ijin82/prefs.js:461
+#, fuzzy
+msgid "Activities"
+msgstr "Tevékenységek és sportok"
+
+#: fav-emoji@ijin82/prefs.js:462
+msgid "Objects"
+msgstr "Tárgyak"
+
+#: fav-emoji@ijin82/prefs.js:463
+msgid "Symbols"
+msgstr "Szimbólumok"
+
+#: fav-emoji@ijin82/prefs.js:464
+msgid "Flags"
+msgstr "Zászlók"
+
+#: fav-emoji@ijin82/prefs.js:492
+msgid "emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:524
+msgid "Click to expand category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:544
+msgid "Settings"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:551
+msgid "Appearance and Behavior"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:557
+msgid "Top Panel Icon"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:558
+#, fuzzy
+msgid "Display the Fav-Emoji icon in the top panel"
+msgstr "Mindig jelenítse meg a bővítmény ikonját a panelen"
+
+#: fav-emoji@ijin82/prefs.js:564
+msgid "Paste immediately after copy"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:565
+msgid ""
+"Automatically paste into the active window when clicking Copy or pressing "
+"Ctrl+Enter"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:578
+#, fuzzy
+msgid "Number of columns in menu"
+msgstr "Emodzsik száma soronként"
+
+#: fav-emoji@ijin82/prefs.js:579
+#, fuzzy
+msgid "Number of emoji buttons per row in popup menu"
+msgstr "Emodzsik száma soronként"
+
+#: fav-emoji@ijin82/prefs.js:593
+msgid "Emoji size in menu (pixels)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:594
+msgid "Font size of emoji buttons in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:601
+msgid "Shortcuts"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:606
+msgid "Enable shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:607
+#, fuzzy
+msgid "Use keyboard shortcut to open the emoji picker"
+msgstr "Billentyűparancs használata a menü váltásához"
+
+#: fav-emoji@ijin82/prefs.js:613
+msgid "Menu shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:628
+msgid "Ctrl+Enter or Enter in popup"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:629
+msgid ""
+"Copies composed emojis to clipboard and closes menu (same as Copy button)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:643
+msgid "About"
+msgstr "Névjegy"
+
+#: fav-emoji@ijin82/prefs.js:650
+msgid "Information"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:651
+msgid "Fav-Emoji v1.0"
+msgstr ""
+
+#~ msgid "Peoples & Clothing"
+#~ msgstr "Emberek és ruházat"
+
+#~ msgid ""
+#~ "Displaying the interface from the bottom is better if you use a bottom "
+#~ "panel instead of the default top bar. Modifications will be effective "
+#~ "after reloading the extension."
+#~ msgstr ""
+#~ "A felület alulról történő megjelenítése jobb, ha alsó panelt használ az "
+#~ "alapértelmezett felső sáv helyett. A módosítások a bővítmény újratöltése "
+#~ "után lépnek életbe."
+
+#~ msgid "General layout"
+#~ msgstr "Általános elrendezés"
+
+#~ msgid "Size of emojis (px)"
+#~ msgstr "Emodzsik mérete (px)"
+
+#~ msgid "Paste upon emoji selection"
+#~ msgstr "Beillesztés az emodzsi kiválasztása után"
+
+#~ msgid "Layout"
+#~ msgstr "Elrendezés"
+
+#~ msgid "Help"
+#~ msgstr "Súgó"
+
+#~ msgid "Apply"
+#~ msgstr "Alkalmaz"
+
+#~ msgid ""
+#~ "If you access the menu with the keyboard shortcut, you don't need to "
+#~ "always display the icon."
+#~ msgstr ""
+#~ "Ha a menüt egy billentyűparanccsal éri el, nem kell mindig megjeleníteni "
+#~ "az ikont."
+
+#~ msgid "Keyboard bindings"
+#~ msgstr "Billentyűkötések"
+
+#~ msgid ""
+#~ "Emoji copy is a versatile extension designed to simplify emoji selection "
+#~ "and clipboard management."
+#~ msgstr ""
+#~ "Az Emoji copy egy sokoldalú bővítmény, amelyet az emodzsik "
+#~ "kiválasztásának és a vágólap kezelésének egyszerűsítésére terveztek."
+
+#~ msgid "Report bugs or ideas"
+#~ msgstr "Hibák vagy ötletek jelentése"
+
+#~ msgid "Author"
+#~ msgstr "Szerző"
+
+#~ msgid "Translator(s)"
+#~ msgstr "Fordító(k)"
+
+#~ msgid "translator-credits"
+#~ msgstr "fordító-készítők"
+
+#~ msgid "Original Owner"
+#~ msgstr "Eredeti tulajdonos"
+
+#~ msgid "List of valid key names"
+#~ msgstr "Érvényes kulcsnevek listája"
+
+#~ msgid "Modifier keys must be between chevrons"
+#~ msgstr "A módosító billentyűknek kúpos zárójelek <> között kell lenniük"
+
+#~ msgid "Don't use a keyboard shortcut that already exists."
+#~ msgstr "Ne használjon olyan billentyűparancsot, amely már létezik."
+
+#, javascript-format
+#~ msgid "Incorrect number of keywords for category '%s':"
+#~ msgstr "Helytelen számú kulcsszó a(z) „%s” kategóriában:"
+
+#~ msgid "Please report this bug"
+#~ msgstr "Jelentse ezt a hibát"
+
+#~ msgid "No skin tone"
+#~ msgstr "Nincs bőrszín"
+
+#~ msgid "Light skin tone"
+#~ msgstr "Világos bőrszín"
+
+#~ msgid "Medium light skin tone"
+#~ msgstr "Közepesen világos bőrszín"
+
+#~ msgid "Medium skin tone"
+#~ msgstr "Közepes bőrszín"
+
+#~ msgid "Medium dark skin tone"
+#~ msgstr "Közepesen sötét bőrszín"
+
+#~ msgid "Dark skin tone"
+#~ msgstr "Sötét bőrszín"
+
+#~ msgid "Women"
+#~ msgstr "Nő"
+
+#~ msgid "Men"
+#~ msgstr "Férfi"
+
+#~ msgid "Type here to search…"
+#~ msgstr "Keresés…"

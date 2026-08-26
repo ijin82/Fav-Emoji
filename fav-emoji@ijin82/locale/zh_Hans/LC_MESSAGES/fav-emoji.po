@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"PO-Revision-Date: 2020-03-07 04:17+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+msgid "Fav-Emoji"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:151
+msgid "Clear"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:174
+msgid "Copy"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:203
+msgid "Click emojis to compose..."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:122
+msgid "Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:129
+msgid "Favorite Emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:130
+msgid "Choose up to 50 emojis to display in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:136
+#, fuzzy
+msgid "Emoji List"
+msgstr "Emoji选择器"
+
+#: fav-emoji@ijin82/prefs.js:139
+msgid "Edit or reorder characters in this line for quick changes"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:158
+msgid "Current Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:159
+msgid "Drag & Drop to reorder, or edit in the text box above."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:251
+msgid "Drag to reorder"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:327
+msgid "List Actions"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:331
+msgid "Default"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:341
+msgid "Clear All"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:356
+msgid "Search Emoji Catalog"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:357
+msgid "Enter name in English (e.g. smile, cat, pizza, fire) and pick emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:362
+msgid "Search emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:450
+msgid "Emoji Catalog by Category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:451
+msgid "Click any 30px emoji to add or remove from favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:456
+#, fuzzy
+msgid "Smileys and Emotion"
+msgstr "表情 & 手势"
+
+#: fav-emoji@ijin82/prefs.js:457
+#, fuzzy
+msgid "People and Body"
+msgstr "表情 & 手势"
+
+#: fav-emoji@ijin82/prefs.js:458
+#, fuzzy
+msgid "Animals and Nature"
+msgstr "动物 & 自然"
+
+#: fav-emoji@ijin82/prefs.js:459
+#, fuzzy
+msgid "Food and Drink"
+msgstr "食物 & 饮料"
+
+#: fav-emoji@ijin82/prefs.js:460
+#, fuzzy
+msgid "Travel and Places"
+msgstr "旅行"
+
+#: fav-emoji@ijin82/prefs.js:461
+#, fuzzy
+msgid "Activities"
+msgstr "运动"
+
+#: fav-emoji@ijin82/prefs.js:462
+msgid "Objects"
+msgstr "物体"
+
+#: fav-emoji@ijin82/prefs.js:463
+msgid "Symbols"
+msgstr "符号"
+
+#: fav-emoji@ijin82/prefs.js:464
+msgid "Flags"
+msgstr "旗"
+
+#: fav-emoji@ijin82/prefs.js:492
+msgid "emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:524
+msgid "Click to expand category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:544
+msgid "Settings"
+msgstr "设置"
+
+#: fav-emoji@ijin82/prefs.js:551
+msgid "Appearance and Behavior"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:557
+msgid "Top Panel Icon"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:558
+#, fuzzy
+msgid "Display the Fav-Emoji icon in the top panel"
+msgstr "让图标一直显示"
+
+#: fav-emoji@ijin82/prefs.js:564
+msgid "Paste immediately after copy"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:565
+msgid ""
+"Automatically paste into the active window when clicking Copy or pressing "
+"Ctrl+Enter"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:578
+#, fuzzy
+msgid "Number of columns in menu"
+msgstr "每行的Emoji数量"
+
+#: fav-emoji@ijin82/prefs.js:579
+#, fuzzy
+msgid "Number of emoji buttons per row in popup menu"
+msgstr "每行的Emoji数量"
+
+#: fav-emoji@ijin82/prefs.js:593
+msgid "Emoji size in menu (pixels)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:594
+msgid "Font size of emoji buttons in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:601
+msgid "Shortcuts"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:606
+msgid "Enable shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:607
+#, fuzzy
+msgid "Use keyboard shortcut to open the emoji picker"
+msgstr "使用快捷键触发Emoji菜单"
+
+#: fav-emoji@ijin82/prefs.js:613
+msgid "Menu shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:628
+msgid "Ctrl+Enter or Enter in popup"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:629
+msgid ""
+"Copies composed emojis to clipboard and closes menu (same as Copy button)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:643
+msgid "About"
+msgstr "关于"
+
+#: fav-emoji@ijin82/prefs.js:650
+msgid "Information"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:651
+msgid "Fav-Emoji v1.0"
+msgstr ""
+
+#~ msgid "Peoples & Clothing"
+#~ msgstr "体态 & 服饰"
+
+#, fuzzy
+#~| msgid ""
+#~| "Displaying the interface from the bottom is better if you use a bottom "
+#~| "panel instead of the default top bar."
+#~ msgid ""
+#~ "Displaying the interface from the bottom is better if you use a bottom "
+#~ "panel instead of the default top bar. Modifications will be effective "
+#~ "after reloading the extension."
+#~ msgstr "如果你使用底栏代替默认的顶栏, 从下面开始显示能够带来良好的用户体验."
+
+#~ msgid "General layout"
+#~ msgstr "常用布局"
+
+#~ msgid "Size of emojis (px)"
+#~ msgstr "Emoji大小(单位为px)"
+
+#~ msgid "Apply"
+#~ msgstr "应用"
+
+#~ msgid ""
+#~ "If you access the menu with the keyboard shortcut, you don't need to "
+#~ "always display the icon."
+#~ msgstr "如果你用快捷键触发Emoji菜单, 你就不太需要一直显示图标."
+
+#~ msgid "Report bugs or ideas"
+#~ msgstr "告诉我们Bugs或你的想法"
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid "Author"
+#~ msgstr "作者:"
+
+#, fuzzy
+#~| msgid "Tranlators:"
+#~ msgid "Translator(s)"
+#~ msgstr "翻译:"
+
+#~ msgid "translator-credits"
+#~ msgstr "校对"
+
+#~ msgid "No skin tone"
+#~ msgstr "无肤色"
+
+#~ msgid "Light skin tone"
+#~ msgstr "微淡色"
+
+#~ msgid "Medium light skin tone"
+#~ msgstr "淡色"
+
+#~ msgid "Medium skin tone"
+#~ msgstr "中色"
+
+#~ msgid "Medium dark skin tone"
+#~ msgstr "偏暗色"
+
+#~ msgid "Dark skin tone"
+#~ msgstr "暗色"
+
+#~ msgid "Women"
+#~ msgstr "女"
+
+#~ msgid "Men"
+#~ msgstr "男"
+
+#~ msgid "Type here to search…"
+#~ msgstr "搜索…"
+
+#~ msgid "Modifications will be effective after reloading the extension."
+#~ msgstr "重新加载后更改才会生效."
+
+#~ msgid "From top to bottom"
+#~ msgstr "从顶部到底部"
+
+#~ msgid "From bottom to top"
+#~ msgstr "从底部到顶部"
+
+#~ msgid ""
+#~ "This extension provides a parametrable popup menu displaying most emojis, "
+#~ "clicking on an emoji copies it to the clipboard."
+#~ msgstr ""
+#~ "这个扩展提供一个可定义参数的弹出菜单用于选用常用的Emoji, 点击你需要的Emoji"
+#~ "它就被复制到剪切板."
+
+#~ msgid "Default value is:"
+#~ msgstr "默认值:"
+
+#~ msgid "Use dark font"
+#~ msgstr "使用暗色字体"
+
+#~ msgid ""
+#~ "This is useful if your system doesn't support color emojis and your GNOME "
+#~ "Shell theme has a white menu background."
+#~ msgstr ""
+#~ "如果你的系统不支持多色Emoji并且你的 GNOME Shell 主题的菜单背景色是白的, 启"
+#~ "用它会改善界面的体验效果."

@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"PO-Revision-Date: 2025-05-23 21:06+0200\n"
+"Last-Translator: p-sage\n"
+"Language-Team: French <none>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+msgid "Fav-Emoji"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:151
+msgid "Clear"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:174
+msgid "Copy"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:203
+msgid "Click emojis to compose..."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:122
+msgid "Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:129
+msgid "Favorite Emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:130
+msgid "Choose up to 50 emojis to display in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:136
+#, fuzzy
+msgid "Emoji List"
+msgstr "Emoji Copy"
+
+#: fav-emoji@ijin82/prefs.js:139
+msgid "Edit or reorder characters in this line for quick changes"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:158
+msgid "Current Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:159
+msgid "Drag & Drop to reorder, or edit in the text box above."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:251
+msgid "Drag to reorder"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:327
+msgid "List Actions"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:331
+msgid "Default"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:341
+msgid "Clear All"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:356
+msgid "Search Emoji Catalog"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:357
+msgid "Enter name in English (e.g. smile, cat, pizza, fire) and pick emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:362
+msgid "Search emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:450
+msgid "Emoji Catalog by Category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:451
+msgid "Click any 30px emoji to add or remove from favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:456
+#, fuzzy
+msgid "Smileys and Emotion"
+msgstr "Émoticônes et émotions"
+
+#: fav-emoji@ijin82/prefs.js:457
+#, fuzzy
+msgid "People and Body"
+msgstr "Émoticônes et émotions"
+
+#: fav-emoji@ijin82/prefs.js:458
+#, fuzzy
+msgid "Animals and Nature"
+msgstr "Animaux et nature"
+
+#: fav-emoji@ijin82/prefs.js:459
+#, fuzzy
+msgid "Food and Drink"
+msgstr "Nourriture et boisson"
+
+#: fav-emoji@ijin82/prefs.js:460
+#, fuzzy
+msgid "Travel and Places"
+msgstr "Voyage et lieux"
+
+#: fav-emoji@ijin82/prefs.js:461
+#, fuzzy
+msgid "Activities"
+msgstr "Activités"
+
+#: fav-emoji@ijin82/prefs.js:462
+msgid "Objects"
+msgstr "Objets"
+
+#: fav-emoji@ijin82/prefs.js:463
+msgid "Symbols"
+msgstr "Symboles"
+
+#: fav-emoji@ijin82/prefs.js:464
+msgid "Flags"
+msgstr "Drapeaux"
+
+#: fav-emoji@ijin82/prefs.js:492
+msgid "emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:524
+msgid "Click to expand category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:544
+#, fuzzy
+msgid "Settings"
+msgstr "Paramètres généraux"
+
+#: fav-emoji@ijin82/prefs.js:551
+msgid "Appearance and Behavior"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:557
+msgid "Top Panel Icon"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:558
+msgid "Display the Fav-Emoji icon in the top panel"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:564
+msgid "Paste immediately after copy"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:565
+msgid ""
+"Automatically paste into the active window when clicking Copy or pressing "
+"Ctrl+Enter"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:578
+msgid "Number of columns in menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:579
+msgid "Number of emoji buttons per row in popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:593
+msgid "Emoji size in menu (pixels)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:594
+msgid "Font size of emoji buttons in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:601
+msgid "Shortcuts"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:606
+msgid "Enable shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:607
+msgid "Use keyboard shortcut to open the emoji picker"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:613
+msgid "Menu shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:628
+msgid "Ctrl+Enter or Enter in popup"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:629
+msgid ""
+"Copies composed emojis to clipboard and closes menu (same as Copy button)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:643
+msgid "About"
+msgstr "À propos"
+
+#: fav-emoji@ijin82/prefs.js:650
+msgid "Information"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:651
+msgid "Fav-Emoji v1.0"
+msgstr ""
+
+#~ msgid "Peoples & Clothing"
+#~ msgstr "Personnages et corps"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "Configure your Emoji Copy"
+#~ msgstr "Configurez votre Emoji Copy"
+
+#~ msgid "Show Indicator"
+#~ msgstr "Afficher l'indicateur"
+
+#~ msgid "Whether to show the emoji indicator."
+#~ msgstr "Afficher ou non l'icône dans le panneau."
+
+#~ msgid "Paste on Select"
+#~ msgstr "Coller sur la sélection"
+
+#~ msgid "Automatically paste the selected emoji."
+#~ msgstr "Coller automatiquement l'émoji sélectionné."
+
+#~ msgid "Use Keybind"
+#~ msgstr "Utiliser un raccourci"
+
+#~ msgid "Enable your default keybind to open the emoji menu."
+#~ msgstr ""
+#~ "Activez votre raccourci par défaut pour ouvrir le panneau des émojis."
+
+#~ msgid "Emoji Copy Keybind"
+#~ msgstr "Raccourci de Emoji Copy"
+
+#~ msgid "No skin tone"
+#~ msgstr "Pas de teinte"
+
+#~ msgid "Light skin tone"
+#~ msgstr "Teinte pâle"
+
+#~ msgid "Medium light skin tone"
+#~ msgstr "Teinte moyennement pâle"
+
+#~ msgid "Medium skin tone"
+#~ msgstr "Teinte moyenne"
+
+#~ msgid "Medium dark skin tone"
+#~ msgstr "Teinte moyennement sombre"
+
+#~ msgid "Dark skin tone"
+#~ msgstr "Teinte sombre"
+
+#~ msgid "Women"
+#~ msgstr "Femmes"
+
+#~ msgid "Men"
+#~ msgstr "Hommes"
+
+#~ msgid "Type here to search…"
+#~ msgstr "Tapez pour rechercher…"

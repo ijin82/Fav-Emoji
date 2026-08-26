@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fav-emoji 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"PO-Revision-Date: 2026-08-26 15:55+0200\n"
+"Last-Translator: Ilya Rogozhin <ijin82@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+msgid "Fav-Emoji"
+msgstr "Fav-Emoji"
+
+#: fav-emoji@ijin82/extension.js:151
+msgid "Clear"
+msgstr "Очистить"
+
+#: fav-emoji@ijin82/extension.js:174
+msgid "Copy"
+msgstr "Скопировать"
+
+#: fav-emoji@ijin82/extension.js:203
+msgid "Click emojis to compose..."
+msgstr "Нажмите эмодзи для набора..."
+
+#: fav-emoji@ijin82/prefs.js:122
+msgid "Favorites"
+msgstr "Избранные"
+
+#: fav-emoji@ijin82/prefs.js:129
+msgid "Favorite Emojis"
+msgstr "Любимые эмодзи"
+
+#: fav-emoji@ijin82/prefs.js:130
+msgid "Choose up to 50 emojis to display in the popup menu"
+msgstr "Выберите до 50 эмодзи, которые будут отображаться в меню"
+
+#: fav-emoji@ijin82/prefs.js:136
+msgid "Emoji List"
+msgstr "Список эмодзи"
+
+#: fav-emoji@ijin82/prefs.js:139
+msgid "Edit or reorder characters in this line for quick changes"
+msgstr "Отредактируйте или переставьте символы в этой строке для быстрого изменения порядка"
+
+#: fav-emoji@ijin82/prefs.js:158
+msgid "Current Favorites"
+msgstr "Текущие избранные"
+
+#: fav-emoji@ijin82/prefs.js:159
+msgid "Drag & Drop to reorder, or edit in the text box above."
+msgstr "Порядок можно менять перетаскиванием мышью (Drag & Drop), либо в поле «Список эмодзи» выше."
+
+#: fav-emoji@ijin82/prefs.js:251
+msgid "Drag to reorder"
+msgstr "Переместите мышью"
+
+#: fav-emoji@ijin82/prefs.js:327
+msgid "List Actions"
+msgstr "Действия со списком"
+
+#: fav-emoji@ijin82/prefs.js:331
+msgid "Default"
+msgstr "По умолчанию"
+
+#: fav-emoji@ijin82/prefs.js:341
+msgid "Clear All"
+msgstr "Очистить всё"
+
+#: fav-emoji@ijin82/prefs.js:356
+msgid "Search Emoji Catalog"
+msgstr "Поиск по каталогу эмодзи"
+
+#: fav-emoji@ijin82/prefs.js:357
+msgid "Enter name in English (e.g. smile, cat, pizza, fire) and pick emojis"
+msgstr "Введите название на английском (например: smile, cat, pizza, fire) и выберите эмодзи"
+
+#: fav-emoji@ijin82/prefs.js:362
+msgid "Search emojis"
+msgstr "Поиск эмодзи"
+
+#: fav-emoji@ijin82/prefs.js:450
+msgid "Emoji Catalog by Category"
+msgstr "Каталог эмодзи по рубрикам"
+
+#: fav-emoji@ijin82/prefs.js:451
+msgid "Click any 30px emoji to add or remove from favorites"
+msgstr "Нажмите на эмодзи (размер 30px) для добавления или удаления из любимых"
+
+#: fav-emoji@ijin82/prefs.js:456
+msgid "Smileys and Emotion"
+msgstr "Смайлы и эмоции"
+
+#: fav-emoji@ijin82/prefs.js:457
+msgid "People and Body"
+msgstr "Люди и тело"
+
+#: fav-emoji@ijin82/prefs.js:458
+msgid "Animals and Nature"
+msgstr "Животные и природа"
+
+#: fav-emoji@ijin82/prefs.js:459
+msgid "Food and Drink"
+msgstr "Еда и напитки"
+
+#: fav-emoji@ijin82/prefs.js:460
+msgid "Travel and Places"
+msgstr "Путешествия и места"
+
+#: fav-emoji@ijin82/prefs.js:461
+msgid "Activities"
+msgstr "Активности и спорт"
+
+#: fav-emoji@ijin82/prefs.js:462
+msgid "Objects"
+msgstr "Предметы"
+
+#: fav-emoji@ijin82/prefs.js:463
+msgid "Symbols"
+msgstr "Символы"
+
+#: fav-emoji@ijin82/prefs.js:464
+msgid "Flags"
+msgstr "Флаги"
+
+#: fav-emoji@ijin82/prefs.js:492
+msgid "emojis"
+msgstr "эмодзи"
+
+#: fav-emoji@ijin82/prefs.js:524
+msgid "Click to expand category"
+msgstr "Нажмите, чтобы открыть категорию"
+
+#: fav-emoji@ijin82/prefs.js:544
+msgid "Settings"
+msgstr "Настройки"
+
+#: fav-emoji@ijin82/prefs.js:551
+msgid "Appearance and Behavior"
+msgstr "Внешний вид и поведение"
+
+#: fav-emoji@ijin82/prefs.js:557
+msgid "Top Panel Icon"
+msgstr "Иконка на панели GNOME"
+
+#: fav-emoji@ijin82/prefs.js:558
+msgid "Display the Fav-Emoji icon in the top panel"
+msgstr "Отображать значок Fav-Emoji в верхней панели системы"
+
+#: fav-emoji@ijin82/prefs.js:564
+msgid "Paste immediately after copy"
+msgstr "Вставлять эмодзи сразу после копирования"
+
+#: fav-emoji@ijin82/prefs.js:565
+msgid ""
+"Automatically paste into the active window when clicking Copy or pressing "
+"Ctrl+Enter"
+msgstr ""
+"Автоматически вставлять набранный текст в активное поле ввода после нажатия "
+"«Скопировать» или Ctrl+Enter"
+
+#: fav-emoji@ijin82/prefs.js:578
+msgid "Number of columns in menu"
+msgstr "Количество колонок в меню"
+
+#: fav-emoji@ijin82/prefs.js:579
+msgid "Number of emoji buttons per row in popup menu"
+msgstr "Число эмодзи в одном ряду контекстного меню"
+
+#: fav-emoji@ijin82/prefs.js:593
+msgid "Emoji size in menu (pixels)"
+msgstr "Размер эмодзи в меню (пиксели)"
+
+#: fav-emoji@ijin82/prefs.js:594
+msgid "Font size of emoji buttons in the popup menu"
+msgstr "Размер значков эмодзи в выпадающем контекстном меню панели"
+
+#: fav-emoji@ijin82/prefs.js:601
+msgid "Shortcuts"
+msgstr "Горячие клавиши"
+
+#: fav-emoji@ijin82/prefs.js:606
+msgid "Enable shortcut"
+msgstr "Включить вызов меню по клавише"
+
+#: fav-emoji@ijin82/prefs.js:607
+msgid "Use keyboard shortcut to open the emoji picker"
+msgstr "Использовать сочетание клавиш для быстрого открытия меню набора эмодзи"
+
+#: fav-emoji@ijin82/prefs.js:613
+msgid "Menu shortcut"
+msgstr "Сочетание клавиш открытия меню"
+
+#: fav-emoji@ijin82/prefs.js:628
+msgid "Ctrl+Enter or Enter in popup"
+msgstr "Ctrl+Enter или Enter в окне набора"
+
+#: fav-emoji@ijin82/prefs.js:629
+msgid ""
+"Copies composed emojis to clipboard and closes menu (same as Copy button)"
+msgstr ""
+"Копирует все набранные эмодзи в буфер обмена и закрывает меню (аналог кнопки "
+"«Скопировать»)"
+
+#: fav-emoji@ijin82/prefs.js:643
+msgid "About"
+msgstr "О программе"
+
+#: fav-emoji@ijin82/prefs.js:650
+msgid "Information"
+msgstr "Информация"
+
+#: fav-emoji@ijin82/prefs.js:651
+msgid "Fav-Emoji v1.0"
+msgstr "Fav-Emoji v1.0"

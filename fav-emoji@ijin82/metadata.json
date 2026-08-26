@@ -1,0 +1,10 @@
+{
+  "uuid": "fav-emoji@ijin82",
+  "name": "Fav-Emoji",
+  "description": "Fav-Emoji is a versatile extension designed to simplify emoji selection and clipboard management.\n\nIt is a fork of Emoji Selector / Emoji Copy.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://github.com/ijin82/Fav-Emoji",
+  "settings-schema": "org.gnome.shell.extensions.fav-emoji",
+  "gettext-domain": "fav-emoji",
+  "version": 1
+}

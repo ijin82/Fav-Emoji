@@ -1,0 +1,11 @@
+# Ignore node files
+node_modules/
+package-lock.json
+
+# Ignores builded files
+_*
+*.zip
+zip-temp
+gschemas.compiled
+fav-emoji@ijin82/data/*.json
+fav-emoji@ijin82/data/*.db

@@ -1,0 +1,349 @@
+# Arabic translation
+# Copyright (C) 2020
+# This file is distributed under the same license as the PACKAGE package.
+# A. Alelg <ahmedelq [at] hotmail [dot] com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"PO-Revision-Date: 2020-03-07 04:17+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+msgid "Fav-Emoji"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:151
+msgid "Clear"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:174
+msgid "Copy"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:203
+msgid "Click emojis to compose..."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:122
+msgid "Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:129
+msgid "Favorite Emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:130
+msgid "Choose up to 50 emojis to display in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:136
+#, fuzzy
+msgid "Emoji List"
+msgstr "إيموجي سيلكتور"
+
+#: fav-emoji@ijin82/prefs.js:139
+msgid "Edit or reorder characters in this line for quick changes"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:158
+msgid "Current Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:159
+msgid "Drag & Drop to reorder, or edit in the text box above."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:251
+msgid "Drag to reorder"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:327
+msgid "List Actions"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:331
+msgid "Default"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:341
+msgid "Clear All"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:356
+msgid "Search Emoji Catalog"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:357
+msgid "Enter name in English (e.g. smile, cat, pizza, fire) and pick emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:362
+msgid "Search emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:450
+msgid "Emoji Catalog by Category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:451
+msgid "Click any 30px emoji to add or remove from favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:456
+#, fuzzy
+msgid "Smileys and Emotion"
+msgstr "الابتسامات والإيماءات"
+
+#: fav-emoji@ijin82/prefs.js:457
+#, fuzzy
+msgid "People and Body"
+msgstr "الابتسامات والإيماءات"
+
+#: fav-emoji@ijin82/prefs.js:458
+#, fuzzy
+msgid "Animals and Nature"
+msgstr "الحيوانات والطبيعة"
+
+#: fav-emoji@ijin82/prefs.js:459
+#, fuzzy
+msgid "Food and Drink"
+msgstr "الطعام والشراب"
+
+#: fav-emoji@ijin82/prefs.js:460
+#, fuzzy
+msgid "Travel and Places"
+msgstr "السفر والأماكن"
+
+#: fav-emoji@ijin82/prefs.js:461
+#, fuzzy
+msgid "Activities"
+msgstr "الأنشطة والرياضة"
+
+#: fav-emoji@ijin82/prefs.js:462
+msgid "Objects"
+msgstr "الأشياء"
+
+#: fav-emoji@ijin82/prefs.js:463
+msgid "Symbols"
+msgstr "الرموز"
+
+#: fav-emoji@ijin82/prefs.js:464
+msgid "Flags"
+msgstr "الرايات"
+
+#: fav-emoji@ijin82/prefs.js:492
+msgid "emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:524
+msgid "Click to expand category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:544
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: fav-emoji@ijin82/prefs.js:551
+msgid "Appearance and Behavior"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:557
+msgid "Top Panel Icon"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:558
+#, fuzzy
+msgid "Display the Fav-Emoji icon in the top panel"
+msgstr "أبق الأيقونة ظاهرة"
+
+#: fav-emoji@ijin82/prefs.js:564
+msgid "Paste immediately after copy"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:565
+msgid ""
+"Automatically paste into the active window when clicking Copy or pressing "
+"Ctrl+Enter"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:578
+#, fuzzy
+msgid "Number of columns in menu"
+msgstr "عدد الإموجيات لكل سطر"
+
+#: fav-emoji@ijin82/prefs.js:579
+#, fuzzy
+msgid "Number of emoji buttons per row in popup menu"
+msgstr "عدد الإموجيات لكل سطر"
+
+#: fav-emoji@ijin82/prefs.js:593
+msgid "Emoji size in menu (pixels)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:594
+msgid "Font size of emoji buttons in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:601
+msgid "Shortcuts"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:606
+msgid "Enable shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:607
+#, fuzzy
+msgid "Use keyboard shortcut to open the emoji picker"
+msgstr "استخدم اختصار من لوحة المفاتيح لإظهار وإخفاء القائمة"
+
+#: fav-emoji@ijin82/prefs.js:613
+msgid "Menu shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:628
+msgid "Ctrl+Enter or Enter in popup"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:629
+msgid ""
+"Copies composed emojis to clipboard and closes menu (same as Copy button)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:643
+msgid "About"
+msgstr "عن"
+
+#: fav-emoji@ijin82/prefs.js:650
+msgid "Information"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:651
+msgid "Fav-Emoji v1.0"
+msgstr ""
+
+#~ msgid "Peoples & Clothing"
+#~ msgstr "الناس والألبسة"
+
+#, fuzzy
+#~| msgid ""
+#~| "Displaying the interface from the bottom is better if you use a bottom "
+#~| "panel instead of the default top bar."
+#~ msgid ""
+#~ "Displaying the interface from the bottom is better if you use a bottom "
+#~ "panel instead of the default top bar. Modifications will be effective "
+#~ "after reloading the extension."
+#~ msgstr ""
+#~ "يحبذ إظهار الواجهة من الأسفل لو كنت تستخدم شريطًا سفليًا بدلاً من الشريط "
+#~ "العلوي الافتراضي."
+
+#~ msgid "General layout"
+#~ msgstr "النسق العام"
+
+#~ msgid "Size of emojis (px)"
+#~ msgstr "حجم الإموجي (بكسل)"
+
+#~ msgid "Help"
+#~ msgstr "مساعدة"
+
+#~ msgid "Apply"
+#~ msgstr "تطبيق"
+
+#~ msgid ""
+#~ "If you access the menu with the keyboard shortcut, you don't need to "
+#~ "always display the icon."
+#~ msgstr "يمكنك إخفاء الأيقونة لو اخترت اختصارًا لإظهار القائمة"
+
+#~ msgid "Report bugs or ideas"
+#~ msgstr "التبليغ عن أخطاء برمجية أو اقتراحات"
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid "Author"
+#~ msgstr "أنشأها:"
+
+#, fuzzy
+#~| msgid "Tranlators:"
+#~ msgid "Translator(s)"
+#~ msgstr "ترجمها للعربية:"
+
+#~ msgid "translator-credits"
+#~ msgstr "أحمد العلق"
+
+#~ msgid "List of valid key names"
+#~ msgstr "قائمة المفاتيح المتاحة"
+
+#~ msgid "Modifier keys must be between chevrons"
+#~ msgstr "مفاتيح التعديل يجب أن تكون دائمًا بين علامتي تنصيص"
+
+#~ msgid "Don't use a keyboard shortcut that already exists."
+#~ msgstr "لا تستخدم مفتاحًا يُستخدم لاختصار آخر"
+
+#~ msgid "No skin tone"
+#~ msgstr "إخفاء ألوان البشرة"
+
+#~ msgid "Light skin tone"
+#~ msgstr "بشرة فاتحة"
+
+#~ msgid "Medium light skin tone"
+#~ msgstr "بشرة سمراء فاتحة"
+
+#~ msgid "Medium skin tone"
+#~ msgstr "بشرة سمراء"
+
+#~ msgid "Medium dark skin tone"
+#~ msgstr "بشرة سمراء غامقة"
+
+#~ msgid "Dark skin tone"
+#~ msgstr "بشرة غامقة"
+
+#~ msgid "Women"
+#~ msgstr "إمرأة"
+
+#~ msgid "Men"
+#~ msgstr "رجل"
+
+#~ msgid "Type here to search…"
+#~ msgstr "اكتب هنا للبحث..."
+
+#~ msgid "Modifications will be effective after reloading the extension."
+#~ msgstr "التعديلات ستُنفذ بعد إعادة تشغيل الإضافة"
+
+#~ msgid "From top to bottom"
+#~ msgstr "من الأعلى إلى الأسفل"
+
+#~ msgid "From bottom to top"
+#~ msgstr "من الأسفل إلى الأعلى"
+
+#, javascript-format
+#~ msgid "The default value is %s"
+#~ msgstr "القيمة الافتراضية هي %s"
+
+#~ msgid ""
+#~ "This extension provides a parametrable popup menu displaying most emojis, "
+#~ "clicking on an emoji copies it to the clipboard."
+#~ msgstr ""
+#~ "توفر هذه الإضافة قائمة منبثقة تحوي على أغلب الإيموجيات، يُنسخ بالضغط على "
+#~ "أي منهم."
+
+#~ msgid "Default value is:"
+#~ msgstr "القيمة الافتراضية هي:"
+
+#~ msgid "Use dark font"
+#~ msgstr "استخدم خط غامق"
+
+#~ msgid ""
+#~ "This is useful if your system doesn't support color emojis and your GNOME "
+#~ "Shell theme has a white menu background."
+#~ msgstr ""
+#~ "مفيدة لو كان نظامك لا يدعم الإيموجي الملونة وخلفية قائمة صدفية غنوم أبيض"

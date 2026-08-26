@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Translator Jonatan Hatakeyama Zeidler <jonatan_zeidler@gmx.de>, 2017
+# Translator Onno Giesmann <nutzer3105@gmail.com>, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"PO-Revision-Date: 2021-11-21 21:00+0100\n"
+"Last-Translator: Onno Giesmann <nutzer3105@gmail.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+msgid "Fav-Emoji"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:151
+msgid "Clear"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:174
+msgid "Copy"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:203
+msgid "Click emojis to compose..."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:122
+msgid "Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:129
+msgid "Favorite Emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:130
+msgid "Choose up to 50 emojis to display in the popup menu"
+msgstr ""
+
+# Did not translate it because it's the name of the app. 
+#: fav-emoji@ijin82/prefs.js:136
+#, fuzzy
+msgid "Emoji List"
+msgstr "Emoji Copy"
+
+#: fav-emoji@ijin82/prefs.js:139
+msgid "Edit or reorder characters in this line for quick changes"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:158
+msgid "Current Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:159
+msgid "Drag & Drop to reorder, or edit in the text box above."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:251
+msgid "Drag to reorder"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:327
+msgid "List Actions"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:331
+msgid "Default"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:341
+msgid "Clear All"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:356
+msgid "Search Emoji Catalog"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:357
+msgid "Enter name in English (e.g. smile, cat, pizza, fire) and pick emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:362
+msgid "Search emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:450
+msgid "Emoji Catalog by Category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:451
+msgid "Click any 30px emoji to add or remove from favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:456
+#, fuzzy
+msgid "Smileys and Emotion"
+msgstr "Smileys & Körper"
+
+#: fav-emoji@ijin82/prefs.js:457
+#, fuzzy
+msgid "People and Body"
+msgstr "Smileys & Körper"
+
+#: fav-emoji@ijin82/prefs.js:458
+#, fuzzy
+msgid "Animals and Nature"
+msgstr "Tiere & Natur"
+
+#: fav-emoji@ijin82/prefs.js:459
+#, fuzzy
+msgid "Food and Drink"
+msgstr "Essen & Trinken"
+
+#: fav-emoji@ijin82/prefs.js:460
+#, fuzzy
+msgid "Travel and Places"
+msgstr "Reisen & Orte"
+
+#: fav-emoji@ijin82/prefs.js:461
+#, fuzzy
+msgid "Activities"
+msgstr "Aktivitäten & Sport"
+
+#: fav-emoji@ijin82/prefs.js:462
+msgid "Objects"
+msgstr "Objekte"
+
+#: fav-emoji@ijin82/prefs.js:463
+msgid "Symbols"
+msgstr "Symbole"
+
+#: fav-emoji@ijin82/prefs.js:464
+msgid "Flags"
+msgstr "Flaggen"
+
+#: fav-emoji@ijin82/prefs.js:492
+msgid "emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:524
+msgid "Click to expand category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:544
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: fav-emoji@ijin82/prefs.js:551
+msgid "Appearance and Behavior"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:557
+msgid "Top Panel Icon"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:558
+#, fuzzy
+msgid "Display the Fav-Emoji icon in the top panel"
+msgstr "Symbol immer anzeigen"
+
+#: fav-emoji@ijin82/prefs.js:564
+msgid "Paste immediately after copy"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:565
+msgid ""
+"Automatically paste into the active window when clicking Copy or pressing "
+"Ctrl+Enter"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:578
+#, fuzzy
+msgid "Number of columns in menu"
+msgstr "Anzahl der Emojis pro Zeile"
+
+#: fav-emoji@ijin82/prefs.js:579
+#, fuzzy
+msgid "Number of emoji buttons per row in popup menu"
+msgstr "Anzahl der Emojis pro Zeile"
+
+#: fav-emoji@ijin82/prefs.js:593
+msgid "Emoji size in menu (pixels)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:594
+msgid "Font size of emoji buttons in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:601
+msgid "Shortcuts"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:606
+msgid "Enable shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:607
+#, fuzzy
+msgid "Use keyboard shortcut to open the emoji picker"
+msgstr "Tastenkürzel für Menüansicht verwenden"
+
+#: fav-emoji@ijin82/prefs.js:613
+msgid "Menu shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:628
+msgid "Ctrl+Enter or Enter in popup"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:629
+msgid ""
+"Copies composed emojis to clipboard and closes menu (same as Copy button)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:643
+msgid "About"
+msgstr "Info"
+
+#: fav-emoji@ijin82/prefs.js:650
+msgid "Information"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:651
+msgid "Fav-Emoji v1.0"
+msgstr ""
+
+#~ msgid "Peoples & Clothing"
+#~ msgstr "Menschen & Kleidung"
+
+#, fuzzy
+#~| msgid ""
+#~| "Displaying the interface from the bottom is better if you use a bottom "
+#~| "panel instead of the default top bar."
+#~ msgid ""
+#~ "Displaying the interface from the bottom is better if you use a bottom "
+#~ "panel instead of the default top bar. Modifications will be effective "
+#~ "after reloading the extension."
+#~ msgstr ""
+#~ "Die Anzeige der Ansicht von unten ist besser, wenn Sie eine untere Leiste "
+#~ "verwenden, anstelle der standardmäßigen oberen Leiste."
+
+#~ msgid "General layout"
+#~ msgstr "Allgemeine Ansicht"
+
+#~ msgid "Size of emojis (px)"
+#~ msgstr "Größe der Emojis (px)"
+
+#~ msgid "Help"
+#~ msgstr "Hilfe"
+
+#~ msgid "Apply"
+#~ msgstr "Anwenden"
+
+#~ msgid ""
+#~ "If you access the menu with the keyboard shortcut, you don't need to "
+#~ "always display the icon."
+#~ msgstr ""
+#~ "Wenn Sie das Menü mit dem Tastenkürzel öffnen bzw. schließen, muss das "
+#~ "Symbol nicht dauerhaft sichtbar sein."
+
+#~ msgid "Report bugs or ideas"
+#~ msgstr "Fehler oder Ideen mitteilen"
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid "Author"
+#~ msgstr "Autor:"
+
+#, fuzzy
+#~| msgid "Translator(s):"
+#~ msgid "Translator(s)"
+#~ msgstr "Übersetzer:"
+
+#~ msgid "translator-credits"
+#~ msgstr "Onno Giesmann"
+
+#~ msgid "List of valid key names"
+#~ msgstr "Liste der gültigen Schlüsselnamen"
+
+#~ msgid "Modifier keys must be between chevrons"
+#~ msgstr "Änderungstasten müssen zwischen den Chevrons sein"
+
+#~ msgid "Don't use a keyboard shortcut that already exists."
+#~ msgstr "Kein Tastenkürzel verwenden, welches bereits existiert."
+
+#, javascript-format
+#~ msgid "Incorrect number of keywords for category '%s':"
+#~ msgstr "Ungültige Anzahl an Schlüsselwörtern für die Kategorie '%s':"
+
+#~ msgid "Please report this bug"
+#~ msgstr "Bitte melden Sie diesen Fehler"
+
+#~ msgid "No skin tone"
+#~ msgstr "Ohne Hautton"
+
+#~ msgid "Light skin tone"
+#~ msgstr "Helle Hautfarbe"
+
+#~ msgid "Medium light skin tone"
+#~ msgstr "Mittelhelle Hautfarbe"
+
+#~ msgid "Medium skin tone"
+#~ msgstr "Mittlere Hautfarbe"
+
+#~ msgid "Medium dark skin tone"
+#~ msgstr "Mitteldunkle Hautfarbe"
+
+#~ msgid "Dark skin tone"
+#~ msgstr "Dunkle Hautfarbe"
+
+#~ msgid "Women"
+#~ msgstr "Weiblich"
+
+#~ msgid "Men"
+#~ msgstr "Männlich"
+
+#~ msgid "Type here to search…"
+#~ msgstr "Hier tippen, um zu suchen…"
+
+#~ msgid "Modifications will be effective after reloading the extension."
+#~ msgstr "Änderungen werden nach einem Neustart der Erweiterung übernommen."
+
+#~ msgid "From top to bottom"
+#~ msgstr "Von oben nach unten"
+
+#~ msgid "From bottom to top"
+#~ msgstr "Von unten nach oben"
+
+#, javascript-format
+#~ msgid "The default value is %s"
+#~ msgstr "Der Standardwert ist %s"
+
+#, javascript-format
+#~ msgid "version %s"
+#~ msgstr "Version %s"
+
+#~ msgid ""
+#~ "This extension provides a parametrable popup menu displaying most emojis, "
+#~ "clicking on an emoji copies it to the clipboard."
+#~ msgstr ""
+#~ "Diese Erweiterung hat ein veränderbares Menü, das fast alle Emojis "
+#~ "anzeigt. Ein Klick auf ein Emoji kopiert es in die Zwischenablage."
+
+#, fuzzy
+#~| msgid "Contributors:"
+#~ msgid "Contributors"
+#~ msgstr "Beitragende:"

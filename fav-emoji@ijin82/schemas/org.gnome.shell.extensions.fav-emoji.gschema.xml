@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="fav-emoji">
+	<schema id="org.gnome.shell.extensions.fav-emoji"
+	path="/org/gnome/shell/extensions/fav-emoji/">
+    <key type="as" name="favorite-emojis">
+      <default>
+        ['👍','❤️','😀','😂','🤣','🚀','🤝','🤔','😮','😍',
+         '🥰','😘','🤮','🔥','🎉','🙏','👏','💯','👀','😎']
+      </default>
+      <summary>Favorite emojis</summary>
+      <description>List of favorite emojis (up to 50) displayed in the popup.</description>
+    </key>
+    <key type="i" name="nbcols">
+      <default>10</default>
+      <summary>Number of emojis per line</summary>
+      <description>Sets the number of columns of emojis to display.</description>
+    </key>
+    <key type="i" name="emojisize">
+      <default>28</default>
+      <summary>Default size of emojis</summary>
+      <description>Default size of emojis in pixels in the popup menu.</description>
+    </key>
+    <key type="b" name="paste-on-select">
+      <default>true</default>
+      <summary>Paste immediately after copy</summary>
+      <description>If true, pressing Copy or Ctrl+Enter will attempt to paste into the focused window.</description>
+    </key>
+    <key type="b" name="active-keybind">
+      <default>true</default>
+      <summary>Enable keyboard shortcut</summary>
+      <description>If true, Super+Period will toggle the popup menu.</description>
+    </key>
+    <key type="b" name="always-show">
+      <default>true</default>
+      <summary>Always show top panel icon</summary>
+      <description>If false, the top panel indicator icon will be hidden.</description>
+    </key>
+    <key name="emoji-keybind" type="as">
+      <default><![CDATA[['<Super>period']]]></default>
+      <summary>Keyboard shortcut</summary>
+      <description>Keyboard shortcut which opens the extension's menu.</description>
+    </key>
+	</schema>
+</schemalist>

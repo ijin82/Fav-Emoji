@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 15:55+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: fav-emoji@ijin82/extension.js:44 fav-emoji@ijin82/prefs.js:667
+msgid "Fav-Emoji"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:151
+msgid "Clear"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:174
+msgid "Copy"
+msgstr ""
+
+#: fav-emoji@ijin82/extension.js:203
+msgid "Click emojis to compose..."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:122
+msgid "Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:129
+msgid "Favorite Emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:130
+msgid "Choose up to 50 emojis to display in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:136
+#, fuzzy
+msgid "Emoji List"
+msgstr "Emoji Copy"
+
+#: fav-emoji@ijin82/prefs.js:139
+msgid "Edit or reorder characters in this line for quick changes"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:158
+msgid "Current Favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:159
+msgid "Drag & Drop to reorder, or edit in the text box above."
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:251
+msgid "Drag to reorder"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:327
+msgid "List Actions"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:331
+msgid "Default"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:341
+msgid "Clear All"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:356
+msgid "Search Emoji Catalog"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:357
+msgid "Enter name in English (e.g. smile, cat, pizza, fire) and pick emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:362
+msgid "Search emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:450
+msgid "Emoji Catalog by Category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:451
+msgid "Click any 30px emoji to add or remove from favorites"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:456
+#, fuzzy
+msgid "Smileys and Emotion"
+msgstr "Усмивки и Тяло"
+
+#: fav-emoji@ijin82/prefs.js:457
+#, fuzzy
+msgid "People and Body"
+msgstr "Усмивки и Тяло"
+
+#: fav-emoji@ijin82/prefs.js:458
+#, fuzzy
+msgid "Animals and Nature"
+msgstr "Животни и Природа"
+
+#: fav-emoji@ijin82/prefs.js:459
+#, fuzzy
+msgid "Food and Drink"
+msgstr "Храна и Напитки"
+
+#: fav-emoji@ijin82/prefs.js:460
+#, fuzzy
+msgid "Travel and Places"
+msgstr "Пътешествия и Места"
+
+#: fav-emoji@ijin82/prefs.js:461
+#, fuzzy
+msgid "Activities"
+msgstr "Дейности и Спорт"
+
+#: fav-emoji@ijin82/prefs.js:462
+msgid "Objects"
+msgstr "Обекти"
+
+#: fav-emoji@ijin82/prefs.js:463
+msgid "Symbols"
+msgstr "Символи"
+
+#: fav-emoji@ijin82/prefs.js:464
+msgid "Flags"
+msgstr "Знамена"
+
+#: fav-emoji@ijin82/prefs.js:492
+msgid "emojis"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:524
+msgid "Click to expand category"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:544
+msgid "Settings"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:551
+msgid "Appearance and Behavior"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:557
+msgid "Top Panel Icon"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:558
+#, fuzzy
+msgid "Display the Fav-Emoji icon in the top panel"
+msgstr "Винаги показвай иконата в панела"
+
+#: fav-emoji@ijin82/prefs.js:564
+msgid "Paste immediately after copy"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:565
+msgid ""
+"Automatically paste into the active window when clicking Copy or pressing "
+"Ctrl+Enter"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:578
+#, fuzzy
+msgid "Number of columns in menu"
+msgstr "Брой на емотикони на ред"
+
+#: fav-emoji@ijin82/prefs.js:579
+#, fuzzy
+msgid "Number of emoji buttons per row in popup menu"
+msgstr "Брой на емотикони на ред"
+
+#: fav-emoji@ijin82/prefs.js:593
+msgid "Emoji size in menu (pixels)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:594
+msgid "Font size of emoji buttons in the popup menu"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:601
+msgid "Shortcuts"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:606
+msgid "Enable shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:607
+#, fuzzy
+msgid "Use keyboard shortcut to open the emoji picker"
+msgstr "Използване на клавишна комбинация за показване на менюто"
+
+#: fav-emoji@ijin82/prefs.js:613
+msgid "Menu shortcut"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:628
+msgid "Ctrl+Enter or Enter in popup"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:629
+msgid ""
+"Copies composed emojis to clipboard and closes menu (same as Copy button)"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:643
+msgid "About"
+msgstr "Относно"
+
+#: fav-emoji@ijin82/prefs.js:650
+msgid "Information"
+msgstr ""
+
+#: fav-emoji@ijin82/prefs.js:651
+msgid "Fav-Emoji v1.0"
+msgstr ""
+
+#~ msgid "Peoples & Clothing"
+#~ msgstr "Хора и Облекло"
+
+#~ msgid ""
+#~ "Displaying the interface from the bottom is better if you use a bottom "
+#~ "panel instead of the default top bar. Modifications will be effective "
+#~ "after reloading the extension."
+#~ msgstr ""
+#~ "Показването на интерфейса отдолу е по-добро, ако използвате долен панел "
+#~ "вместо стандартната горна лента. Промените ще влязат в сила след "
+#~ "презареждане на разширението."
+
+#~ msgid "General layout"
+#~ msgstr "Основно оформление"
+
+#~ msgid "Size of emojis (px)"
+#~ msgstr "Размер на емотикони (px)"
+
+#~ msgid "Paste upon emoji selection"
+#~ msgstr "Поставяне при избор на емотикона"
+
+#~ msgid "Layout"
+#~ msgstr "Оформление"
+
+#~ msgid "Help"
+#~ msgstr "Помощ"
+
+#~ msgid "Apply"
+#~ msgstr "Прилагане"
+
+#~ msgid ""
+#~ "If you access the menu with the keyboard shortcut, you don't need to "
+#~ "always display the icon."
+#~ msgstr ""
+#~ "Ако използвате клавишна комбинация за достъп до менюто, не е нужно винаги "
+#~ "да показвате иконата."
+
+#~ msgid "Keyboard bindings"
+#~ msgstr "Клавишни комбинации"
+
+#~ msgid ""
+#~ "Emoji copy is a versatile extension designed to simplify emoji selection "
+#~ "and clipboard management."
+#~ msgstr ""
+#~ "Emoji copy е универсално разширение, предназначено да улесни избора на "
+#~ "емотикони и управлението на клипборда."
+
+#~ msgid "Report bugs or ideas"
+#~ msgstr "Докладване на грешки или идеи"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Translator(s)"
+#~ msgstr "Преводач(и)"
+
+#~ msgid "translator-credits"
+#~ msgstr "Иван"
+
+#~ msgid "Original Owner"
+#~ msgstr "Оригинален собственик"
+
+#~ msgid "List of valid key names"
+#~ msgstr "Списък с валидни имена на клавиши"
+
+#~ msgid "Modifier keys must be between chevrons"
+#~ msgstr "Клавишите модификатори трябва да са между ъглови скоби"
+
+#~ msgid "Don't use a keyboard shortcut that already exists."
+#~ msgstr "Не използвайте клавишна комбинация, която вече съществува."
+
+#, javascript-format
+#~ msgid "Incorrect number of keywords for category '%s':"
+#~ msgstr "Неправилен брой ключови думи за категория '%s':"
+
+#~ msgid "Please report this bug"
+#~ msgstr "Моля, докладвайте тази грешка"
+
+#~ msgid "No skin tone"
+#~ msgstr "Без тон на кожата"
+
+#~ msgid "Light skin tone"
+#~ msgstr "Светъл тон на кожата"
+
+#~ msgid "Medium light skin tone"
+#~ msgstr "Умерено светъл тон на кожата"
+
+#~ msgid "Medium skin tone"
+#~ msgstr "Умерен тон на кожата"
+
+#~ msgid "Medium dark skin tone"
+#~ msgstr "Умерено тъмен тон на кожата"
+
+#~ msgid "Dark skin tone"
+#~ msgstr "Тъмен тон на кожата"
+
+#~ msgid "Women"
+#~ msgstr "Жени"
+
+#~ msgid "Men"
+#~ msgstr "Мъже"
+
+#~ msgid "Type here to search"
+#~ msgstr "Пишете тук, за да търсите"

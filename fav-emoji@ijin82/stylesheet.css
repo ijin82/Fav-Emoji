@@ -1,0 +1,99 @@
+/* Fav-Emoji Stylesheet */
+
+/* Header action buttons row */
+.fav-emoji-actions-menuitem {
+  padding: 4px 6px 6px 6px;
+}
+
+.fav-emoji-actions-box {
+  spacing: 8px;
+}
+
+.fav-emoji-action-btn {
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.fav-emoji-clear-btn {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #e0e0e0;
+}
+
+.fav-emoji-clear-btn:hover,
+.fav-emoji-clear-btn:focus {
+  background-color: rgba(230, 50, 50, 0.25);
+  color: #ff6b6b;
+}
+
+.fav-emoji-copy-btn {
+  background-color: #3584e4;
+  color: #ffffff;
+}
+
+.fav-emoji-copy-btn:hover,
+.fav-emoji-copy-btn:focus {
+  background-color: #1d72db;
+}
+
+.fav-emoji-btn-icon {
+  margin-right: 6px;
+}
+
+.fav-emoji-btn-label {
+  font-weight: bold;
+}
+
+/* Text Accumulator Entry */
+.fav-emoji-entry-menuitem {
+  padding: 2px 6px 8px 6px;
+}
+
+.fav-emoji-entry {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 18px;
+  min-height: 28px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+.fav-emoji-entry:focus {
+  border-color: #3584e4;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Favorites Grid and Buttons */
+.fav-emoji-row-menuitem {
+  padding: 2px 4px;
+}
+
+.fav-emoji-row-box {
+  spacing: 2px;
+}
+
+.fav-emoji-btn {
+  font-family:
+    JoyPixels Color,
+    Twitter Color Emoji,
+    Noto Color Emoji,
+    Noto Emoji,
+    sans-serif;
+  min-width: 36px;
+  min-height: 36px;
+  padding: 2px 4px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.fav-emoji-btn:hover,
+.fav-emoji-btn:focus {
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+.fav-emoji-btn:active {
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
