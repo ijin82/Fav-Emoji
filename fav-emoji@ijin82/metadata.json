@@ -6,5 +6,5 @@
   "url": "https://github.com/ijin82/Fav-Emoji",
   "settings-schema": "org.gnome.shell.extensions.fav-emoji",
   "gettext-domain": "fav-emoji",
-  "version": 1
+  "version": 2
 }
