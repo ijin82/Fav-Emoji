@@ -5,12 +5,11 @@ import sys
 import json
 import requests
 import traceback
-from sqlite import SQLite
 
 # Constants
 UNICODE_URL = "https://unicode.org/Public/emoji/latest/emoji-test.txt" # emoji keyboard/display test data
 EMOJI_MAP = "./build/emoji_map.json" # existing emojis mapped to keywords
-DB_PATH = "./fav-emoji@ijin82/data/emojis.db" # path to SQLite DB for storing emojis
+JSON_PATH = "./fav-emoji@ijin82/data/emojis.json" # path to JSON data for storing emojis
 
 # Fetch unicode file from remote
 try:
@@ -35,7 +34,7 @@ except json.JSONDecodeError:
     print(traceback.format_exc())
     sys.exit(2)
 
-print("[+] Parsing and loading emojis into database... 🍳")
+print("[+] Parsing and loading emojis into JSON... 🍳")
 
 # Global variables
 GROUP = ""
@@ -85,8 +84,12 @@ for line in data:
     if SUBGROUP not in desc:
         desc = f"{desc} {SUBGROUP}"
 
-    item = (emoji, desc, skin_tone, GROUP)
-    #print(item)
+    item = {
+        "unicode": emoji,
+        "description": desc,
+        "skin_tone": skin_tone,
+        "group": GROUP
+    }
     ITEM.append(item)
 
 # Insert custom emojis from custom.py
@@ -96,14 +99,19 @@ try:
     custom_emojis = get_custom_emojis()
     for emoji in custom_emojis.keys():
         # If the emoji is already in the ITEM list, skip it
-        if any(item[0] == emoji for item in ITEM):
+        if any(item["unicode"] == emoji for item in ITEM):
             print(f"[!] Emoji {emoji} already exists in ITEM. Skipping.")
             continue
 
         # Use a default description if not provided
         if custom_emojis[emoji]:
             desc = " ".join(custom_emojis[emoji].get("description", []))
-            item = (emoji, desc, "", custom_emojis[emoji].get("group", "Symbols"))
+            item = {
+                "unicode": emoji,
+                "description": desc,
+                "skin_tone": "",
+                "group": custom_emojis[emoji].get("group", "Symbols")
+            }
             ITEM.append(item)
 except ImportError:
     print("[!] No custom emojis found. Skipping custom emojis.")
@@ -112,14 +120,10 @@ except Exception as e:
     print(traceback.format_exc())
     sys.exit(3)
 
-# Insert all emojis into database
-EmojisDB = SQLite(DB_PATH)
-EmojisDB.drop_table()
-EmojisDB.create_table()
-EmojisDB.insert_many(ITEM)
-EmojisDB.vacuum()
+# Write to JSON file
+with open(JSON_PATH, "w", encoding="utf-8") as f:
+    json.dump(ITEM, f, ensure_ascii=False)
 
-print("[+] Finished loading emojis into database! 🎉")
-print(f"[!] Emoji Count: {EmojisDB.get_count()}")
-EmojisDB.close() # Never forget doing this
-print("[!] run `du -ah ./fav-emoji@ijin82/data/` to get the DBs current size.")
+print("[+] Finished loading emojis into JSON! 🎉")
+print(f"[!] Emoji Count: {len(ITEM)}")
+print("[!] run `du -ah ./fav-emoji@ijin82/data/` to get data size.")

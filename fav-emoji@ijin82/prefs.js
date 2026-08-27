@@ -6,7 +6,7 @@ import Gdk from 'gi://Gdk';
 import GObject from 'gi://GObject';
 
 import { ExtensionPreferences, gettext as _ } from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
-import { SQLite } from './handlers/sql.js';
+import { EmojiCatalog } from './handlers/emojis.js';
 
 const DEFAULT_FAVORITES = [
     '👋','❤️','👍','😀','😂','🤣','🚀','🎉','🤝','🤔',
@@ -96,12 +96,21 @@ export default class FavEmojiPrefs extends ExtensionPreferences {
         const iconsDirectory = this.dir.get_child('icons').get_path();
         iconTheme.add_search_path(iconsDirectory);
 
-        // Initialize SQLite DB for full catalog and search
-        this.sqlite = new SQLite();
-        await this.sqlite.initializeDB(this.dir.get_path());
+        // Initialize Emoji catalog for full view and search
+        this.catalog = new EmojiCatalog();
+        this.catalog.initialize(this.dir.get_path());
 
         // Registry for catalog and search buttons to update their selected state
         this._registeredButtons = new Map();
+
+        window.connect('close-request', () => {
+            this.catalog = null;
+            if (this._registeredButtons) {
+                this._registeredButtons.clear();
+                this._registeredButtons = null;
+            }
+            this._window = null;
+        });
 
         // 1. Favorites Page
         this._buildFavoritesPage();
@@ -404,12 +413,12 @@ export default class FavEmojiPrefs extends ExtensionPreferences {
                 child = next;
             }
 
-            if (!query || !this.sqlite) {
+            if (!query || !this.catalog) {
                 searchRow.visible = false;
                 return;
             }
 
-            const results = this.sqlite.search_description(query) || [];
+            const results = this.catalog.search(query) || [];
             if (results.length === 0) {
                 searchRow.visible = false;
                 return;
@@ -486,10 +495,10 @@ export default class FavEmojiPrefs extends ExtensionPreferences {
 
             let loaded = false;
             const loadCategoryEmojis = () => {
-                if (loaded || !this.sqlite) return;
+                if (loaded || !this.catalog) return;
                 loaded = true;
 
-                const emojis = this.sqlite.select_by_group(cat.id, 0, 0) || [];
+                const emojis = this.catalog.getByGroup(cat.id) || [];
                 expRow.set_subtitle(`${emojis.length} ${_('emojis')}`);
 
                 const currentList = this._window._settings.get_strv('favorite-emojis') || [];

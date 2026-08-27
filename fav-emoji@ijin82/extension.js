@@ -59,7 +59,7 @@ export default class FavEmoji extends Extension {
 
     Main.panel.addToStatusArea(this.uuid, this.super_btn, 0, "right");
 
-    this.super_btn.menu.connect(
+    this._menuOpenStateId = this.super_btn.menu.connect(
       "open-state-changed",
       this._onOpenStateChanged.bind(this),
     );
@@ -83,7 +83,9 @@ export default class FavEmoji extends Extension {
         this._rebuildFavoritesGrid();
       }),
       this._settings.connect("changed::always-show", () => {
-        this.super_btn.visible = this._settings.get_boolean("always-show");
+        if (this.super_btn) {
+          this.super_btn.visible = this._settings.get_boolean("always-show");
+        }
       }),
       this._settings.connect("changed::active-keybind", (s) => {
         Main.wm.removeKeybinding("emoji-keybind");
@@ -95,14 +97,37 @@ export default class FavEmoji extends Extension {
   }
 
   disable() {
-    if (this._settings.get_boolean("active-keybind")) {
+    if (this._settings?.get_boolean("active-keybind")) {
       Main.wm.removeKeybinding("emoji-keybind");
     }
 
-    for (const signalId of this.signaux) {
-      this._settings.disconnect(signalId);
+    if (this.signaux && this._settings) {
+      for (const signalId of this.signaux) {
+        this._settings.disconnect(signalId);
+      }
     }
     this.signaux = [];
+
+    if (this._menuOpenStateId && this.super_btn?.menu) {
+      this.super_btn.menu.disconnect(this._menuOpenStateId);
+      this._menuOpenStateId = null;
+    }
+
+    if (this._clearBtnClickedId && this.clearBtn) {
+      this.clearBtn.disconnect(this._clearBtnClickedId);
+      this._clearBtnClickedId = null;
+    }
+
+    if (this._copyBtnClickedId && this.copyBtn) {
+      this.copyBtn.disconnect(this._copyBtnClickedId);
+      this._copyBtnClickedId = null;
+    }
+
+    if (this._clutterTextKeyId && this._clutterText) {
+      this._clutterText.disconnect(this._clutterTextKeyId);
+      this._clutterTextKeyId = null;
+      this._clutterText = null;
+    }
 
     if (this.timeoutSourceId) {
       GLib.Source.remove(this.timeoutSourceId);
@@ -114,14 +139,32 @@ export default class FavEmoji extends Extension {
       this._pasteHackTimeoutId = null;
     }
 
+    if (this.clearBtn) {
+      this.clearBtn.destroy();
+      this.clearBtn = null;
+    }
+
+    if (this.copyBtn) {
+      this.copyBtn.destroy();
+      this.copyBtn = null;
+    }
+
+    if (this.textEntry) {
+      this.textEntry.destroy();
+      this.textEntry = null;
+    }
+
+    if (this.favoritesSection) {
+      this.favoritesSection.destroy();
+      this.favoritesSection = null;
+    }
+
     if (this.super_btn) {
       this.super_btn.destroy();
       this.super_btn = null;
     }
 
     this._settings = null;
-    this.textEntry = null;
-    this.favoritesSection = null;
   }
 
   _buildMenuLayout() {
@@ -159,7 +202,7 @@ export default class FavEmoji extends Extension {
       x_expand: true,
       child: clearBox,
     });
-    this.clearBtn.connect("clicked", () => this._onClearClicked());
+    this._clearBtnClickedId = this.clearBtn.connect("clicked", () => this._onClearClicked());
 
     // Copy button
     const copyBox = new St.BoxLayout({
@@ -182,7 +225,7 @@ export default class FavEmoji extends Extension {
       x_expand: true,
       child: copyBox,
     });
-    this.copyBtn.connect("clicked", () => this._onCopyClicked());
+    this._copyBtnClickedId = this.copyBtn.connect("clicked", () => this._onCopyClicked());
 
     actionsBox.add_child(this.clearBtn);
     actionsBox.add_child(this.copyBtn);
@@ -205,15 +248,17 @@ export default class FavEmoji extends Extension {
       x_expand: true,
     });
 
-    const clutterText = this.textEntry.get_clutter_text();
-    clutterText.connect("key-press-event", (actor, event) => {
+    this._clutterText = this.textEntry.get_clutter_text();
+    this._clutterTextKeyId = this._clutterText.connect("key-press-event", (actor, event) => {
       const symbol = event.get_key_symbol();
       if (symbol === Clutter.KEY_Return || symbol === Clutter.KEY_KP_Enter) {
         this._onCopyClicked();
         return Clutter.EVENT_STOP;
       }
       if (symbol === Clutter.KEY_Escape) {
-        this.super_btn.menu.close();
+        if (this.super_btn?.menu) {
+          this.super_btn.menu.close();
+        }
         return Clutter.EVENT_STOP;
       }
       return Clutter.EVENT_PROPAGATE;
