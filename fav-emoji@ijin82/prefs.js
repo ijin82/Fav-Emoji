@@ -171,13 +171,14 @@ export default class FavEmojiPrefs extends ExtensionPreferences {
         favPage.add(chipsGroup);
         chipsGroup.add(flowBox);
 
-        // Helper to get array of emojis from text using grapheme segmenter
+        // Robust Unicode regex that correctly handles 2-letter flags, ZWJ sequences, skin tones, keycaps
+        const EMOJI_REGEX = /(?:[\u{1F1E6}-\u{1F1FF}]{2}|\p{Extended_Pictographic}(?:\uFE0F|\uFE0E)?(?:\u{1F3FB}|\u{1F3FC}|\u{1F3FD}|\u{1F3FE}|\u{1F3FF})?(?:\u200D\p{Extended_Pictographic}(?:\uFE0F|\uFE0E)?(?:\u{1F3FB}|\u{1F3FC}|\u{1F3FD}|\u{1F3FE}|\u{1F3FF})?)*|[0-9#*]\uFE0F?\u20E3|\p{Emoji_Presentation}|\p{Emoji}\uFE0F)/gu;
+
+        // Helper to get array of emojis from text
         const extractEmojis = (text) => {
             if (!text) return [];
-            const segmenter = new Intl.Segmenter('en', { granularity: 'grapheme' });
-            return Array.from(segmenter.segment(text))
-                .map(s => s.segment.trim())
-                .filter(s => s.length > 0 && s !== ' ');
+            const matches = Array.from(text.matchAll(EMOJI_REGEX)).map(m => m[0]);
+            return matches.filter(s => s.length > 0 && s.trim().length > 0);
         };
 
         let isSyncingBulk = false;
@@ -191,8 +192,10 @@ export default class FavEmojiPrefs extends ExtensionPreferences {
             currentGroup.set_description(_(`Selected: ${count} of 50 max`));
 
             if (!skipBulkTextUpdate && !isSyncingBulk) {
+                isSyncingBulk = true;
                 bulkEntryRow.set_text(currentList.join(''));
                 bulkEntryRow.select_region(0, 0);
+                isSyncingBulk = false;
             }
 
             // Clear flowBox
