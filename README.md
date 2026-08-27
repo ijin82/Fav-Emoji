@@ -24,7 +24,7 @@ Unlike standard bulky emoji pickers with thousands of icons at once, **Fav-Emoji
 
 ---
 
-## Installation & Build 🛠
+## Installation & Build 📦
 
 ### Build from source:
 
@@ -54,7 +54,7 @@ gnome-extensions prefs fav-emoji@ijin82
 
 ---
 
-## Debugging & Testing 🏗
+## Debugging & Testing 🧪
 
 - Test inside an isolated nested GNOME Shell session (Wayland):
   ```bash
@@ -67,12 +67,12 @@ gnome-extensions prefs fav-emoji@ijin82
 
 ---
 
-## Acknowledgments & Credits 🫂
+## Acknowledgments & Credits 🤝
 
 **Fav-Emoji** is created by Ilya Rogozhin ([@ijin82](https://github.com/ijin82)) based on the **[Emoji Copy](https://github.com/felipeftn/emoji-copy)** project.
 
 Special thanks to:
-- **[FelipeFTN](https://github.com/felipeftn)** — creator of the original *Emoji Copy* extension, whose groundwork, SQLite database, and efforts made this extension possible.
+- **[FelipeFTN](https://github.com/felipeftn)** — creator of the original *Emoji Copy* extension, whose ideas, codebase, and inspiration laid the groundwork for this extension.
 - **[maoschanz](https://github.com/maoschanz)** — author of the original *emoji-selector-for-gnome*.
 - All open-source GNOME community contributors and translators.
 
